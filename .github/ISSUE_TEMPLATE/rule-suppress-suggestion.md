@@ -1,8 +1,8 @@
 ---
 name: Rule suppress suggestion
 about: What is the problem with rule XX1234
-title: "[RuleSuppressSuggestion]"
-labels: question
+title: "Rule: XX1234"
+labels: RuleSuppressSuggestion
 assignees: davidkallesen, perkops
 
 ---
