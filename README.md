@@ -33,9 +33,12 @@ For Visual Studio Code, you can install the [EditorConfig for VS Code](https://m
 ### Q: I have a suggestion to a rule I dont like
 If you have a rule you don't like, please feel free to start a suggestion proceess.
 
-Create a [issue](/issues) base on the [rule-suppress-suggestion-template](/documentation/CodeAnalyzersRules/TEMPLATE-rule-suppress-suggestion.md)
+Create a [issue](https://github.com/atc-net/atc-coding-rules/issues/new/choose) base on the `Rule suppress suggestion`
 
-Read more on this in the [rule suppression process description](/documentation/CodeAnalyzersRules/rule-suppress-process.md).
+Read more on this in the [rule suppression process](/documentation/CodeAnalyzersRules/rule-suppress-process.md).
 
 ### Q: What is a .editorconfig file?
-EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles. EditorConfig files are easily readable and they work nicely with version control systems. Find out more at [editorconfig.org](http://editorconfig.org/) and the [Visual Studio Docs](https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference).
+EditorConfig helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles. EditorConfig files are easily readable and they work nicely with version control systems. Find out more at:
+* [editorconfig.org](http://editorconfig.org/)
+* [Visual Studio Docs - editor](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options?view=vs-2019)
+* [Visual Studio Docs - code style](https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference).
