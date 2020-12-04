@@ -1,5 +1,7 @@
 # ATC-NET Coding Rules and Guidelines
 
+[ATC Analyzers Rules dicisions overview](/documentation/CodeAnalyzersRules/rules-overview.md)
+
 ## What is it?
 This github reposotory contains coding rules which are defined by the ATC core team, for use in various code projects. If you are about to create a new project, it will be a good start to download files from the [distribution](/tree/main/distribution) for you editor.
 
