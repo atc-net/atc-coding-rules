@@ -3,7 +3,7 @@
 ## Meeting
 
 ### Date for meeting
-27--11-2020
+27-11-2020
 
 ### ATC Core members in meeting
 * [member a]
@@ -18,16 +18,10 @@
 | Category    | [Maintainability Rules] |
 | Link        | [https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1413.md] |
 
-<br />
-<br />
-
 ### What is the problem
 [describe the problem] - [link to issue or source]
 
-<br />
-<br />
-
-### Dicision
+### Decision
 
 * [Just follow the rule - see 'How to fix violations']
 
@@ -37,10 +31,7 @@
 
 * [we update the sub-located `.editorconfig` with a doc-link. Example: StyleCop/SAxxxx.md] (this file-copy)
 
-## Dicision
-Just follow the rule.
-
-### Reson & arguments
+### Reason & arguments
 * [argument 1]
 * [argument 2]
 * [argument 3]
