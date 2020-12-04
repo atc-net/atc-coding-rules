@@ -1,4 +1,4 @@
-Rules suppression overview
+# Rules suppression overview
 
 ## [AsyncFixer](http://www.asyncfixer.com)
 | Rule        | Area              | Decision Date | Decision summary | Decision link |
