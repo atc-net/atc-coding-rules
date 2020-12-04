@@ -6,9 +6,6 @@ labels: question
 assignees: davidkallesen, perkops
 
 ---
-
-# Rule suppress suggestion
-
 ### Rule summary
 | Key         | Value |
 | ----------- |------------------------------------------------|
@@ -21,4 +18,4 @@ assignees: davidkallesen, perkops
 <br />
 
 ### What is the problem
-[describe the problem] - [link to issue or source]
+[describe the problem]
