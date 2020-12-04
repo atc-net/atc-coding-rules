@@ -22,7 +22,7 @@
 <br />
 
 ### What is the problem
-[describe the problem]
+[describe the problem] - [link to issue or source]
 
 <br />
 <br />
