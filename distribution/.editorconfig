@@ -258,7 +258,7 @@ csharp_preserve_single_line_blocks = true
 # https://docs.microsoft.com/visualstudio/ide/editorconfig-naming-conventions
 ##########################################
 
-[*.{cs,csx,cake,vb,vbx}]
+[*.{cs,csx,cake}]
 
 ##########################################
 # Styles
@@ -375,7 +375,6 @@ dotnet_naming_rule.sanity_check_uncovered_field_case_rule.symbols  = sanity_chec
 dotnet_naming_rule.sanity_check_uncovered_field_case_rule.style    = internal_error_style
 dotnet_naming_rule.sanity_check_uncovered_field_case_rule.severity = error
 
-
 ##########################################
 # Other Naming Rules
 ##########################################
@@ -418,9 +417,6 @@ dotnet_naming_rule.parameters_rule.style                = camel_case_style
 dotnet_naming_rule.parameters_rule.severity             = warning
 
 ##########################################
-
-
-
 
 
 ##########################################
