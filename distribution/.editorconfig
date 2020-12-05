@@ -452,6 +452,6 @@ dotnet_naming_rule.parameters_rule.severity             = warning
 
 # StyleCop
 # https://github.com/DotNetAnalyzers/StyleCopAnalyzers
-
+dotnet_diagnostic.SA1633.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/StyleCop/SA1633.md
 
 ##########################################

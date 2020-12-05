@@ -57,3 +57,4 @@
 | Rule        | Area              | Decision Date | Decision summary | Decision link |
 | ----------- |-------------------|:-------------:|:----------------:|---------------|
 | SA1413      | Maintainability   | 27-11-2020    | Follow it        | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1413.md) |
+| SA1633      | Documentation     | 04-12-2020    | ROOT             | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1633.md) |
