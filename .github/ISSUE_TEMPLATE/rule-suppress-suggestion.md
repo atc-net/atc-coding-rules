@@ -9,13 +9,16 @@ assignees: davidkallesen, perkops
 ### Rule summary
 | Key         | Value |
 | ----------- |------------------------------------------------|
-| Title       | [SA1413UseTrailingCommasInMultiLineInitializers] |
-| CheckId     | [SA1413] |
-| Category    | [Maintainability Rules] |
-| Link        | [https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1413.md] |
+| Title       | [Example: SA1413UseTrailingCommasInMultiLineInitializers] |
+| CheckId     | [Example: SA1413] |
+| Category    | [Example: Maintainability Rules] |
+| Link        | [Example: https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1413.md] |
 
 <br />
 <br />
 
 ### What is the problem
 [describe the problem]
+
+### Suggestion
+[if you have a suggestion and where it belongs to ROOT or SRC or TEST]
