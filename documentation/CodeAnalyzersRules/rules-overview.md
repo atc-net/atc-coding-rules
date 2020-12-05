@@ -27,7 +27,7 @@
 ## [Microsoft - Code Analysis](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules)
 | Rule        | Area              | Decision Date | Decision summary | Decision link |
 | ----------- |-------------------|:-------------:|:----------------:|---------------|
-|             |                   |               |                  |               |
+| CA1707      |                   | 04-12-2020    | Only for TEST    | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md) |
 
 <br />
 <br />

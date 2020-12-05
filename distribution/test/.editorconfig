@@ -1,12 +1,13 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.0.0
-# Updated: 04-12-2020
-# Location: Src
+# Version: 1.0.1
+# Updated: 05-12-2020
+# Location: Test
 # Inspired by: https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
 
 ##########################################
 # Code Analyzers Rules
 ##########################################
+[*.{cs,csx,cake}]
 
 # AsyncFixer
 # http://www.asyncfixer.com
@@ -21,7 +22,7 @@
 
 # Microsoft - Code Analysis
 # https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
-
+dotnet_diagnostic.CA1707.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md
 
 # Microsoft - FxCop
 # https://github.com/dotnet/roslyn-analyzers
