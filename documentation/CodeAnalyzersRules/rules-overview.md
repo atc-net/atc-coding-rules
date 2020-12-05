@@ -56,5 +56,8 @@
 ## [StyleCop](https://github.com/DotNetAnalyzers/StyleCopAnalyzers)
 | Rule        | Area              | Decision Date | Decision summary | Decision link |
 | ----------- |-------------------|:-------------:|:----------------:|---------------|
+| SA1101      | Documentation     | 04-12-2020    | ROOT             | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1101.md) |
+| SA1200      | Documentation     | 04-12-2020    | ROOT             | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1200.md) |
 | SA1413      | Maintainability   | 27-11-2020    | Follow it        | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1413.md) |
+| SA1600      | Documentation     | 04-12-2020    | ROOT             | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1600.md) |
 | SA1633      | Documentation     | 04-12-2020    | ROOT             | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1633.md) |
