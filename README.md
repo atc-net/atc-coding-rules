@@ -25,6 +25,15 @@ Take a copy of the [distribution](/tree/main/distribution) folder and drop it in
 For Visual Studio Code, you can install the [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) extension.
 
 ## Q & A:
+### Q: How to get started
+One way to get started is, just download the powershell script [update-atc-coding-rules](https://github.com/atc-net/atc-coding-rules/blob/main/update-atc-coding-rules.ps1)
+into you root folder (location where you .sln file is or will be placed).
+Then run the script and you are good to go.
+
+Note: On first time you run the script, it will create folders like `src`, `test`, `sample` and dump file into each. If you don't like the folder `sample` then just delete this folder, and it will not be recreate again when the script is run again.
+
+Another way is just create you own script og program that can get you `.editorconfig` files in sync... let you get inspired by the [update-atc-coding-rules](https://github.com/atc-net/atc-coding-rules/blob/main/update-atc-coding-rules.ps1)
+
 ### Q: I see a rule is suppressed - why?
 1) If the rule is suppressed in code by a `SuppressMessage` attrubute, hopefully the `Justification` description should clarify it.
 2) If the rule is suppressed in the `.editorconfig` and it is not defined under you own _custom section_ then the rule must be found under [documentation for rules suppression overview](/documentation/CodeAnalyzersRules/rules-overview.md)
