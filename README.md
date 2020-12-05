@@ -8,7 +8,7 @@ This github repository contains coding rules which are defined by the ATC core t
 The main focus for the ATC core team is Visual Studio, Visual Studio Code and .NET/C#. [.NET Code Style](#)
 
 ## Incentative
-Let your team use the same set of code rules for your project - which is a collection of code analyzers with all rules treated as errors by default.
+Let your team use the same set of code rules for your project - which is a collection of code analyzers with all rules `treated as errors` by default - for `release build`.
 
 Extensive code style settings for C# have been defined that require the latest C# features to be used.
 
