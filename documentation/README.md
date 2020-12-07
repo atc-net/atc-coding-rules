@@ -1,3 +1,3 @@
 # ATC-NET Coding Rules and Guidelines
 
-[ATC Analyzers Rules dicisions overview](/documentation/CodeAnalyzersRules/rules-overview.md)
+[ATC Analyzers Rules decisions overview](/documentation/CodeAnalyzersRules/README.md)
