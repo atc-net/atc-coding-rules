@@ -4,7 +4,7 @@
 
 ## What is it?
 
-This github repository contains coding rules which are defined by the ATC core team for use in various code projects. If you are about to create a new project, it will be a good start to download files from the [distribution](/tree/main/distribution) as a starting point for your solution.
+This github repository contains coding rules which are defined by the ATC core team for use in various code projects. If you are about to create a new project, it will be a good start to download files from the [distribution](https://github.com/atc-net/atc-coding-rules/tree/main/distribution) as a starting point for your solution.
 
 The main focus for the ATC core team is Visual Studio, Visual Studio Code and .NET/C#.
 
