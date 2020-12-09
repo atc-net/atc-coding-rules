@@ -20,10 +20,12 @@
 # Meziantou
 # https://www.meziantou.net/enforcing-asynchronous-code-good-practices-using-a-roslyn-analyzer.htm
 
+
 # Microsoft - Code Analysis
 # https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
 dotnet_diagnostic.CA1707.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md
 
+
 # Microsoft - FxCop
 # https://github.com/dotnet/roslyn-analyzers
 
@@ -38,41 +40,12 @@ dotnet_diagnostic.CA1707.severity = none            # https://github.com/atc-net
 
 # StyleCop
 # https://github.com/DotNetAnalyzers/StyleCopAnalyzers
+
+
+# SonarAnalyzer.CSharp
+# https://rules.sonarsource.com/csharp
 
 
 ##########################################
 # Custom - Code Analyzers Rules
-##########################################
-
-# AsyncFixer
-# http://www.asyncfixer.com
-
-
-# Asyncify
-# https://github.com/hvanbakel/Asyncify-CSharp
-
-
-# Meziantou
-# https://www.meziantou.net/enforcing-asynchronous-code-good-practices-using-a-roslyn-analyzer.htm
-
-# Microsoft - Code Analysis
-# https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
-
-
-# Microsoft - FxCop
-# https://github.com/dotnet/roslyn-analyzers
-
-
-# Microsoft - Threading
-# https://github.com/microsoft/vs-threading/blob/master/doc/analyzers/index.md
-
-
-# SecurityCodeScan
-# https://security-code-scan.github.io/
-
-
-# StyleCop
-# https://github.com/DotNetAnalyzers/StyleCopAnalyzers
-
-
 ##########################################

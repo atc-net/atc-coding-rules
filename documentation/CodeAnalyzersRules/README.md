@@ -53,3 +53,9 @@
 | SA1602      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1602.md) |
 | SA1604      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1604.md) |
 | SA1633      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1633.md) |
+
+## [SonarAnalyzer.CSharp](https://rules.sonarsource.com/csharp)
+
+| Rule        | Area              | Decision Date | Suppressed | Location | Decision link |
+| ----------- |-------------------|:-------------:|:----------:|:--------:|---------------|
+|             |                   |               |            |          |               |
