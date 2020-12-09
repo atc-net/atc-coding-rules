@@ -50,7 +50,7 @@ Another way is to just create you own script or program that can get your `.edit
 ### Q: I see a rule is suppressed - why?
 
 1) If the rule is suppressed in code by a `SuppressMessage` attrubute, hopefully the `Justification` description should clarify it.
-2) If the rule is suppressed in the `.editorconfig` and it is not defined under you own _custom section_ then the rule must be found under [documentation for rules suppression overview](/documentation/CodeAnalyzersRules/rules-overview.md)
+2) If the rule is suppressed in the `.editorconfig` and it is not defined under you own _custom section_ then the rule must be found under [documentation for rules suppression overview](/documentation/CodeAnalyzersRules/README.md)
 3) I can't see the rule defined as described in bullet 1 or 2 - Then the rule is **INVALID**  - use `git blame` and get the code fixed with the person/team or/and follow up on the process for code quality - e.g. improve the PullRequest-Review process.
 
 ### Q: I have a suggestion to a rule I dont like
