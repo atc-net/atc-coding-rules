@@ -1,6 +1,6 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.0.0
-# Updated: 04-12-2020
+# Version: 1.0.2
+# Updated: 10-12-2020
 # Location: Root
 # Inspired by: https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
 
@@ -437,10 +437,6 @@ dotnet_naming_rule.parameters_rule.severity             = warning
 
 # Microsoft - Code Analysis
 # https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
-
-
-# Microsoft - FxCop
-# https://github.com/dotnet/roslyn-analyzers
 
 
 # Microsoft - Threading
