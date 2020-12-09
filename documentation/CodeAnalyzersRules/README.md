@@ -22,7 +22,7 @@
 
 | Rule        | Area              | Decision Date | Suppressed | Location | Decision link |
 | ----------- |-------------------|:-------------:|:----------:|:--------:|---------------|
-| CA1707      |                   | 04-12-2020    | ✔️        | test     | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md) |
+| CA1707      | Naming            | 04-12-2020    | ✔️        | test     | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md) |
 
 ## [Microsoft - FxCop](https://github.com/dotnet/roslyn-analyzers)
 
