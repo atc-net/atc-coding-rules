@@ -45,7 +45,9 @@ Directory descriptions:
 
 If you don't like the folder `sample` then just delete this folder, and it will not be recreated when the script is run again.
 
-Another way is to just create you own script or program that can get your `.editorconfig` files in sync. You can be inspied by this '[update-atc-coding-rules](https://github.com/atc-net/atc-coding-rules/blob/main/update-atc-coding-rules.ps1)' script
+Another way is to just create you own script or program that can get your `.editorconfig` files in sync. You can be inspied by this '[update-atc-coding-rules](https://github.com/atc-net/atc-coding-rules/blob/main/update-atc-coding-rules.ps1)' script.
+
+A work in progress is to define and implement the CLI Tool: [atc-coding-rules-updater](https://github.com/atc-net/atc-coding-rules-updater)
 
 ### Q: I see a rule is suppressed - why?
 
