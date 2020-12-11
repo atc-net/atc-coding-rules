@@ -40,6 +40,7 @@
 
 | Rule        | Area              | Decision Date | Suppressed | Location | Decision link |
 | ----------- |-------------------|:-------------:|:----------:|:--------:|---------------|
+| SA1009      | Spacing           | 11-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1009.md) |
 | SA1101      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1101.md) |
 | SA1200      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1200.md) |
 | SA1413      | Maintainability   | 27-11-2020    | ❌        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1413.md) |
