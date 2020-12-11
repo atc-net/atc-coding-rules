@@ -16,7 +16,7 @@
 
 | Rule        | Area              | Decision Date | Suppressed | Location | Decision link |
 | ----------- |-------------------|:-------------:|:----------:|:--------:|---------------|
-|             |                   |               |            |          |               |
+| MA0016      | ?                 | 11-12-2020    | ❌        | root     | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0016.md) |
 
 ## [Microsoft - Code Analysis](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules)
 
@@ -42,7 +42,7 @@
 | ----------- |-------------------|:-------------:|:----------:|:--------:|---------------|
 | SA1101      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1101.md) |
 | SA1200      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1200.md) |
-| SA1413      | Maintainability   | 27-11-2020    | ❌        | -        | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1413.md) |
+| SA1413      | Maintainability   | 27-11-2020    | ❌        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1413.md) |
 | SA1600      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1600.md) |
 | SA1602      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1602.md) |
 | SA1604      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1604.md) |
