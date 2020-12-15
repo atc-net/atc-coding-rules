@@ -28,7 +28,7 @@ trim_trailing_whitespace = true
 indent_style = tab
 
 # Visual Studio XML Project Files
-[*.{csproj,vbproj,vcxproj.filters,proj,projitems,shproj}]
+[*.{csproj,vcxproj.filters,proj,projitems,shproj}]
 indent_size = 2
 
 # XML Configuration Files
@@ -79,7 +79,7 @@ dotnet_separate_import_directive_groups = false
 
 # .NET Code Style Settings
 # https://docs.microsoft.com/visualstudio/ide/editorconfig-language-conventions#net-code-style-settings
-[*.{cs,csx,cake,vb,vbx}]
+[*.{cs,csx,cake}]
 # "this." and "Me." qualifiers
 # https://docs.microsoft.com/visualstudio/ide/editorconfig-language-conventions#this-and-me
 dotnet_style_qualification_for_field = false
