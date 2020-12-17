@@ -3,7 +3,6 @@ name: Rule suppression suggestion
 about: What is the problem with rule XX1234
 title: "Rule: XX1234"
 labels: RuleSuppressionSuggestion
-assignees: davidkallesen, perkops
 
 ---
 ### Rule summary
