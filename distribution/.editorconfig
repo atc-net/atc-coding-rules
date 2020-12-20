@@ -1,6 +1,6 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.0.3
-# Updated: 11-12-2020
+# Version: 1.0.4
+# Updated: 20-12-2020
 # Location: Root
 # Inspired by: https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
 
@@ -434,6 +434,7 @@ dotnet_naming_rule.parameters_rule.severity             = warning
 # Meziantou
 # https://www.meziantou.net/enforcing-asynchronous-code-good-practices-using-a-roslyn-analyzer.htm
 dotnet_diagnostic.MA0016.severity = error           # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/Meziantou/MA0016.md
+dotnet_diagnostic.MA0025.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/Meziantou/MA0025.md
 
 
 # Microsoft - Code Analysis

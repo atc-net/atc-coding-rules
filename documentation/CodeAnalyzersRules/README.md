@@ -1,5 +1,10 @@
 # Rules suppression overview
 
+** Suppressed symbols **
+* ❌ dotnet_diagnostic.[RULE].severity = error
+* ✔️ dotnet_diagnostic.[RULE].severity = none
+* ☑️ dotnet_diagnostic.[RULE].severity = suggestion
+
 ## [AsyncFixer](http://www.asyncfixer.com)
 
 | Rule        | Area              | Decision Date | Suppressed | Location | Decision link |
@@ -17,6 +22,7 @@
 | Rule        | Area              | Decision Date | Suppressed | Location | Decision link |
 | ----------- |-------------------|:-------------:|:----------:|:--------:|---------------|
 | MA0016      | ?                 | 11-12-2020    | ❌        | root     | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0016.md) |
+| MA0025      | ?                 | 11-12-2020    | ☑️        | root     | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0025.md) |
 
 ## [Microsoft - Code Analysis](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules)
 
@@ -42,6 +48,7 @@
 | ----------- |-------------------|:-------------:|:----------:|:--------:|---------------|
 | SA1009      | Spacing           | 11-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1009.md) |
 | SA1101      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1101.md) |
+| SA1133      | Readability       | 20-12-2020    | ✔️        | test     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1133.md) |
 | SA1200      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1200.md) |
 | SA1413      | Maintainability   | 27-11-2020    | ❌        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1413.md) |
 | SA1600      | Documentation     | 04-12-2020    | ✔️        | root     | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1600.md) |

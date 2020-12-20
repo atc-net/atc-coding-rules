@@ -68,3 +68,17 @@ EditorConfig helps developers define and maintain consistent coding styles betwe
 * [editorconfig.org](http://editorconfig.org/)
 * [Visual Studio Docs - editor](https://docs.microsoft.com/en-us/visualstudio/ide/create-portable-custom-editor-options?view=vs-2019)
 * [Visual Studio Docs - code style](https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference).
+
+### Q: The use of severity levels
+
+For atc-coding-rules the default severity setting is: `dotnet_analyzer_diagnostic.severity = error`
+and **`Treat Warnings As Errors`** is set for **`Build-Target = Release`**
+
+This means that atc-coding-rules only use the following severity:
+* `error`
+* `suggestion` (`Info` in [Visual Studio - Error List Window](https://docs.microsoft.com/en-us/visualstudio/ide/reference/error-list-window?view=vs-2019))
+* `none`
+
+Read about severity-level:
+* [configuration-options => severity-level](https://docs.microsoft.com/da-dk/dotnet/fundamentals/code-analysis/configuration-options#severity-level)
+* [configure-severity-levels meaning for Visual Studio](https://docs.microsoft.com/en-us/visualstudio/code-quality/use-roslyn-analyzers?view=vs-2019#configure-severity-levels)
