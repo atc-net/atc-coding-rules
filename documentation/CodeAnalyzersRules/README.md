@@ -22,7 +22,8 @@
 | Rule        | Area              | Decision Date | Suppressed | Location | Decision link |
 | ----------- |-------------------|:-------------:|:----------:|:--------:|---------------|
 | MA0016      | ?                 | 11-12-2020    | ❌        | root     | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0016.md) |
-| MA0025      | ?                 | 11-12-2020    | ☑️        | root     | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0025.md) |
+| MA0025      | ?                 | 20-12-2020    | ☑️        | root     | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0025.md) |
+| MA0026      | ?                 | 20-12-2020    | ☑️        | root     | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0026.md) |
 
 ## [Microsoft - Code Analysis](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules)
 
