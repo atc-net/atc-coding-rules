@@ -61,4 +61,4 @@
 
 | Rule        | Area              | Decision Date | Suppressed | Location | Decision link |
 | ----------- |-------------------|:-------------:|:----------:|:--------:|---------------|
-|             |                   |               |            |          |               |
+| S1135       | ?                 | 20-12-2020    | ☑️        | root     | [link](/documentation/CodeAnalyzersRules/SonarAnalyzerCSharp/S1135.md) |

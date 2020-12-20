@@ -31,7 +31,7 @@
 
 * [use `SuppressMessage` attrubute with `Justification` description. Example: "OK - be design."]
 
-* [we update the Root `.editorconfig` with a doc-link. Example: StyleCop/SAxxxx.md (this file-copy)]
+* [we update the `root/.editorconfig` with `severity = none` and a doc-link. Example: StyleCop/SAxxxx.md (this file-copy)]
 
 * [we update the sub-located `.editorconfig` with a doc-link. Example: StyleCop/SAxxxx.md] (this file-copy)
 

@@ -464,6 +464,7 @@ dotnet_diagnostic.SA1633.severity = none            # https://github.com/atc-net
 
 # SonarAnalyzer.CSharp
 # https://rules.sonarsource.com/csharp
+dotnet_diagnostic.S1135.severity = suggestion       # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/SonarAnalyzerCSharp/S1135.md
 
 
 ##########################################
