@@ -22,15 +22,6 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
-  <PropertyGroup Label="Documentation">
-    <!--
-    Make sure documentation XML is also included when publishing (not only when testing)
-    see https://github.com/Azure/service-fabric-issues/issues/190
-    -->
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <DocumentationFile Condition=" '$(DocumentationFile)' == '' " >bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
-  </PropertyGroup>
-
   <ItemGroup>
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
     <PackageReference Include="Nerdbank.GitVersioning" Version="3.3.37" PrivateAssets="All" />
