@@ -7,11 +7,12 @@
   <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory).., Directory.Build.props))\Directory.Build.props" />
 
   <PropertyGroup Label="Nuget package metadata">
+    <OrganizationName><!-- Insert organization name here --></OrganizationName>
     <RepositoryName><!-- Insert repository name here --></RepositoryName>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/atc-net/$(RepositoryName)</RepositoryUrl>
+    <RepositoryUrl>https://github.com/$(OrganizationName)/$(RepositoryName)</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageProjectUrl>https://github.com/atc-net/$(RepositoryName)</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/$(OrganizationName)/$(RepositoryName)</PackageProjectUrl>
     <PackageTags></PackageTags>
     <Product></Product>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
@@ -19,6 +20,15 @@
     <IncludeSymbols>true</IncludeSymbols>
     <DebugType>embedded</DebugType>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Documentation">
+    <!--
+    Make sure documentation XML is also included when publishing (not only when testing)
+    see https://github.com/Azure/service-fabric-issues/issues/190
+    -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DocumentationFile Condition=" '$(DocumentationFile)' == '' " >bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
