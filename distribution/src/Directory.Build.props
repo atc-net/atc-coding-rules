@@ -19,7 +19,7 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <IncludeSymbols>true</IncludeSymbols>
     <DebugType>embedded</DebugType>
-    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <!-- <SymbolPackageFormat>snupkg</SymbolPackageFormat> # NU5017 - https://github.com/NuGet/Home/issues/10372  -->
   </PropertyGroup>
 
   <ItemGroup>
