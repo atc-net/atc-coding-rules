@@ -31,12 +31,6 @@
 | ----------- |-------------------|:-------------:|:----------:|:--------:|---------------|
 | CA1707      | Naming            | 04-12-2020    | ✔️        | test     | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md) |
 
-## [Microsoft - Threading](https://github.com/microsoft/vs-threading/blob/master/doc/analyzers/index.md)
-
-| Rule        | Area              | Decision Date | Suppressed | Location | Decision link |
-| ----------- |-------------------|:-------------:|:----------:|:--------:|---------------|
-|             |                   |               |            |          |               |
-
 ## [SecurityCodeScan](https://security-code-scan.github.io)
 
 | Rule        | Area              | Decision Date | Suppressed | Location | Decision link |
