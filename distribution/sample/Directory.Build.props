@@ -7,5 +7,5 @@
   <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory).., Directory.Build.props))\Directory.Build.props" />
 
   <!-- Place any common sample properties here -->
-  
+
 </Project>

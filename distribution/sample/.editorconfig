@@ -28,10 +28,6 @@
 # https://github.com/dotnet/roslyn-analyzers
 
 
-# Microsoft - Threading
-# https://github.com/microsoft/vs-threading/blob/master/doc/analyzers/index.md
-
-
 # SecurityCodeScan
 # https://security-code-scan.github.io/
 
@@ -61,10 +57,6 @@
 
 # Microsoft - FxCop
 # https://github.com/dotnet/roslyn-analyzers
-
-
-# Microsoft - Threading
-# https://github.com/microsoft/vs-threading/blob/master/doc/analyzers/index.md
 
 
 # SecurityCodeScan
