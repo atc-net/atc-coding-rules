@@ -2,8 +2,8 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
   <PropertyGroup Label="Metadata configuration">
-    <OrganizationName>atc-net</OrganizationName>
-    <RepositoryName>atc-cosmos</RepositoryName>
+    <OrganizationName><!-- insert organization name here --></OrganizationName>
+    <RepositoryName><!-- insert repository name here --></RepositoryName>
   </PropertyGroup>
 
   <!-- Solution wide properties -->
