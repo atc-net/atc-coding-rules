@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
+  <PropertyGroup Label="Metadata configuration">
+    <OrganizationName><!-- insert organization name here --></OrganizationName>
+    <RepositoryName><!-- insert repository name here --></RepositoryName>
+  </PropertyGroup>
+
   <!-- Solution wide properties -->
   <PropertyGroup Label="Assembly Naming">
-    <Company>CompanyName</Company>
-    <Authors>CompanyName</Authors>
+    <Company>$(OrganizationName)</Company>
+    <Authors>$(OrganizationName)</Authors>
     <NeutralLanguage>en</NeutralLanguage>
     <DefaultLanguage>en-US</DefaultLanguage>
   </PropertyGroup>
@@ -22,9 +27,9 @@
 
   <PropertyGroup Label="Analyzer settings">
     <AnalysisMode>AllEnabledByDefault</AnalysisMode>
-		<EnableNETAnalyzers>true</EnableNETAnalyzers>
-		<AnalysisLevel>latest</AnalysisLevel>
-		<EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
   </PropertyGroup>
 
   <!-- Treat warnings as errors are always on when building in release -->
