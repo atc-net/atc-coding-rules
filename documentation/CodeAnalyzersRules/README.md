@@ -27,7 +27,7 @@
 | MA0016      | Style             | 05-02-2021    | ❌ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0016.md) |
 | MA0025      | Style             | 05-02-2021    | ☑️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0025.md) |
 | MA0026      | Style             | 05-02-2021    | ☑️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0026.md) |
-| MA0018      | Style             | 05-02-2021    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0028.md) |
+| MA0028      | Style             | 05-02-2021    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0028.md) |
 
 ## [Microsoft - Code Analysis](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules)
 
