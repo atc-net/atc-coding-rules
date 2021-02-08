@@ -105,4 +105,4 @@ Se example:
 
 ![Img](docs/fig-editorconfig.png)
 
-The `dotnet_diagnostic.SA1633.severity` value will be read as: ~~none~~ => ~~error~~ => ~~suggestion~~ => **none**
+The `dotnet_diagnostic.SA1633.severity` value will be read as: ~~none~~ => ~~error~~ => ~~suggestion~~ => **error**
