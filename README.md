@@ -82,3 +82,27 @@ This means that atc-coding-rules only use the following severity:
 Read about severity-level:
 * [configuration-options => severity-level](https://docs.microsoft.com/da-dk/dotnet/fundamentals/code-analysis/configuration-options#severity-level)
 * [configure-severity-levels meaning for Visual Studio](https://docs.microsoft.com/en-us/visualstudio/code-quality/use-roslyn-analyzers?view=vs-2019#configure-severity-levels)
+
+
+### Q: How does inheritance work for project properties
+
+Imagine the we want to set the `LangVersion` property. To do this we can set it directly in the `.csproj` file or it can be set in a `Directory.Build.props` file - or both file types. The `MSBuild` or `dotnet build` use the file hierarchy of `Directory.Build.props` and `.csproj` to read the value as the `LangVersion` property.
+The important here is, that the last defination wins.
+
+Se example:
+
+![Img](docs/fig-project-properties.png)
+
+The `LangVersion` property value will be read as: ~~7.0~~ => ~~8.0~~ => **9.0**
+
+
+### Q: How does inheritance work for severity level for a rule
+
+Imagine the we want to set the severity level for a rule `SA1633`. To do this we can set it in the `.editorconfig` file and it can be set multiples times. The editor like `Visual Studio` or `VS Code` use the file hierarchy of `.editorconfig` to read the **key**/value pair as the `dotnet_diagnostic.SA1633.severity`.
+The important here is, that the last key/**value** pair defination wins.
+
+Se example:
+
+![Img](docs/fig-editorconfig.png)
+
+The `dotnet_diagnostic.SA1633.severity` value will be read as: ~~none~~ => ~~error~~ => ~~suggestion~~ => **none**
