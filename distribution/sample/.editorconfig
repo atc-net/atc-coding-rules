@@ -20,8 +20,13 @@
 # Meziantou
 # https://www.meziantou.net/enforcing-asynchronous-code-good-practices-using-a-roslyn-analyzer.htm
 
+
 # Microsoft - Code Analysis
 # https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
+
+
+# Microsoft - Compiler Errors
+# https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/
 
 
 # Microsoft - FxCop

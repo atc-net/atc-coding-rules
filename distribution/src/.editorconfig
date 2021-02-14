@@ -25,6 +25,10 @@
 # https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
 
 
+# Microsoft - Compiler Errors
+# https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/
+
+
 # SecurityCodeScan
 # https://security-code-scan.github.io/
 

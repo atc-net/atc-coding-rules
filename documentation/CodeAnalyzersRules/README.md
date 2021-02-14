@@ -6,6 +6,7 @@
 * ☑️ dotnet_diagnostic.[RULE].severity = suggestion
 * 🦡 empty / no dotnet_diagnostic line in file 
 
+
 ## [AsyncFixer](http://www.asyncfixer.com)
 
 | Rule        | Area              | Decision Date | root | src | test | sample | Decision link |
@@ -24,10 +25,12 @@
 |-------------|-------------------|:-------------:|:----:|:---:|:----:|:------:|---------------|
 | MA0003      | Style             | 05-02-2021    | ☑️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0003.md) |
 | MA0004      | Style             | 05-02-2021    | ☑️ | 🦡 | ✔️ | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0004.md) |
-| MA0016      | Style             | 05-02-2021    | ❌ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0016.md) |
+| MA0006      | Style             | 11-02-2021    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0006.md) |
+| MA0016      | Style             | 05-02-2021    | ❌ | 🦡 | ✔️ | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0016.md) |
 | MA0025      | Style             | 05-02-2021    | ☑️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0025.md) |
 | MA0026      | Style             | 05-02-2021    | ☑️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0026.md) |
 | MA0028      | Style             | 05-02-2021    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0028.md) |
+| MA0048      | Style             | 11-02-2021    | ❌ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/Meziantou/MA0048.md) |
 
 ## [Microsoft - Code Analysis](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules)
 
@@ -35,6 +38,13 @@
 |-------------|-------------------|:-------------:|:----:|:---:|:----:|:------:|---------------|
 | CA1707      | Naming            | 04-12-2020    | ❌ | 🦡 | ✔️ | 🦡 | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md) |
 | CA2007      | Reliability       | 05-02-2021    | ☑️ | 🦡 | ✔️ | 🦡 | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA2007.md) |
+| IDE0058     | Style             | 11-02-2021    | ❌ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/IDE0058.md) |
+
+## [Microsoft - Compiler Errors](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/)
+
+| Rule        | Area              | Decision Date | root | src | test | sample | Decision link |
+|-------------|-------------------|:-------------:|:----:|:---:|:----:|:------:|---------------|
+| CS4014      | Naming            | 11-02-2021    | ❌ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/MicrosoftCompilerErrors/CS4014.md) |
 
 ## [SecurityCodeScan](https://security-code-scan.github.io)
 
@@ -58,6 +68,7 @@
 | SA1602      | Documentation     | 04-12-2020    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1602.md) |
 | SA1604      | Documentation     | 04-12-2020    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1604.md) |
 | SA1623      | Documentation     | 04-12-2020    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1623.md) |
+| SA1629      | Documentation     | 11-02-2021    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1629.md) |
 | SA1633      | Documentation     | 04-12-2020    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1633.md) |
 
 ## [SonarAnalyzer.CSharp](https://rules.sonarsource.com/csharp)
