@@ -36,9 +36,11 @@
 
 | Rule        | Area              | Decision Date | root | src | test | sample | Decision link |
 |-------------|-------------------|:-------------:|:----:|:---:|:----:|:------:|---------------|
+| CA1014      | Design            | 05-03-2021    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md) |
+| CA1068      | Design            | 05-03-2021    | ❌ | 🦡 | ✔️ | 🦡 | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md) |
 | CA1707      | Naming            | 04-12-2020    | ❌ | 🦡 | ✔️ | 🦡 | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md) |
 | CA2007      | Reliability       | 05-02-2021    | ☑️ | 🦡 | ✔️ | 🦡 | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA2007.md) |
-| IDE0058     | Style             | 11-02-2021    | ❌ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/IDE0058.md) |
+| IDE0058     | Style             | 11-02-2021    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/IDE0058.md) |
 
 ## [Microsoft - Compiler Errors](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/)
 
@@ -62,6 +64,7 @@
 | SA1133      | Readability       | 05-02-2021    | ❌ | 🦡 | ✔️ | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1133.md) |
 | SA1200      | Documentation     | 04-12-2020    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1200.md) |
 | SA1201      | Ordering Rules    | 05-02-2021    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1201.md) |
+| SA1202      | Ordering Rules    | 05-02-2021    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1202.md) |
 | SA1204      | Ordering Rules    | 05-02-2021    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1204.md) |
 | SA1413      | Maintainability   | 27-11-2020    | ❌ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1413.md) |
 | SA1600      | Documentation     | 04-12-2020    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1600.md) |
@@ -70,6 +73,7 @@
 | SA1623      | Documentation     | 04-12-2020    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1623.md) |
 | SA1629      | Documentation     | 11-02-2021    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1629.md) |
 | SA1633      | Documentation     | 04-12-2020    | ✔️ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1633.md) |
+| SA1649      | Documentation     | 05-03-2021    | ❌ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/StyleCop/SA1649.md) |
 
 ## [SonarAnalyzer.CSharp](https://rules.sonarsource.com/csharp)
 
