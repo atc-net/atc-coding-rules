@@ -54,9 +54,10 @@ indent_size = 2
 [*.{cmd,bat}]
 end_of_line = crlf
 
-# Bash Files
-[*.sh]
+# Shell scripts/files
+[*.{sh,ps1}]
 end_of_line = lf
+indent_size = 2
 
 # Makefiles
 [Makefile]
