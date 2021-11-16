@@ -10,7 +10,8 @@
     <Nullable>annotations</Nullable>
   </PropertyGroup>
 
-  <ItemGroup Label="Test Analyzers">
+  <ItemGroup>
+    <PackageReference Include="Atc.Test" Version="1.0.45" />
     <PackageReference Include="NSubstitute.Analyzers.CSharp" Version="1.0.15" PrivateAssets="All" />
   </ItemGroup>
 
