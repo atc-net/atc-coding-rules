@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Using Include="Atc.test" />
+    <Using Include="Atc.Test" />
     <Using Include="AutoFixture" />
     <Using Include="AutoFixture.Xunit2" />
     <Using Include="FluentAssertions" />
