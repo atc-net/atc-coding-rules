@@ -14,4 +14,10 @@
     <PackageReference Include="NSubstitute.Analyzers.CSharp" Version="1.0.15" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Using Include="FluentAssertions" />
+    <Using Include="NSubstitute" />
+    <Using Include="Xunit" />
+  </ItemGroup>
+
 </Project>
