@@ -26,7 +26,7 @@ When a rule is found annoying and someone wants to deactivate it, this must foll
 
 ## Usage
 
-Take a copy of the [distribution](/tree/main/distribution) folder and drop it into the root of a project. Once this is done, when opening a file in Visual Studio, the .editorconfig file settings will automatically be used to help format the document and also raise warnings if the code style and formatting does not conform to the rules.
+Take a copy of the [distribution](https://github.com/atc-net/atc-coding-rules/tree/main/distribution) folder and drop it into the root of a project. Once this is done, when opening a file in Visual Studio, the .editorconfig file settings will automatically be used to help format the document and also raise warnings if the code style and formatting does not conform to the rules.
 
 For Visual Studio Code, install the [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) extension to gain .editorconfig support.
 
