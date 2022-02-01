@@ -492,6 +492,7 @@ dotnet_diagnostic.SA1649.severity = error           # https://github.com/atc-net
 # https://rules.sonarsource.com/csharp
 dotnet_diagnostic.S1135.severity = suggestion       # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/SonarAnalyzerCSharp/S1135.md
 
+
 ##########################################
 # Custom - File Extension Settings
 ##########################################
