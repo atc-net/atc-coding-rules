@@ -1,7 +1,8 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.0.8
+# Version: 1.0.9
 # Updated: 01-02-2022
 # Location: Root
+# Distribution: DotNetCore
 # Inspired by: https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
 
 ##########################################
@@ -58,6 +59,12 @@ end_of_line = crlf
 # Bash Files
 [*.sh]
 end_of_line = lf
+indent_size = 2
+
+# Powershell
+[*.ps1]
+end_of_line = lf
+indent_size = 2
 
 # Makefiles
 [Makefile]
