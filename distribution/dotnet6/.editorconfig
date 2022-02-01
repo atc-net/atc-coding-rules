@@ -1,6 +1,6 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.0.7
-# Updated: 18-06-2021
+# Version: 1.0.8
+# Updated: 01-02-2022
 # Location: Root
 # Inspired by: https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
 
@@ -485,6 +485,10 @@ dotnet_diagnostic.SA1649.severity = error           # https://github.com/atc-net
 # SonarAnalyzer.CSharp
 # https://rules.sonarsource.com/csharp
 dotnet_diagnostic.S1135.severity = suggestion       # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/SonarAnalyzerCSharp/S1135.md
+
+##########################################
+# Custom - File Extension Settings
+##########################################
 
 
 ##########################################
