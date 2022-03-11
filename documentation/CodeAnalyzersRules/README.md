@@ -7,18 +7,6 @@
 * 🦡 empty / no dotnet_diagnostic line in file 
 
 
-## [AsyncFixer](http://www.asyncfixer.com)
-
-| Rule        | Area              | Decision Date | root | src | test | sample | Decision link |
-|-------------|-------------------|:-------------:|:----:|:---:|:----:|:------:|---------------|
-|             |                   |               |      |     |      |        |               |
-
-## [Asyncify](https://github.com/hvanbakel/Asyncify-CSharp)
-
-| Rule        | Area              | Decision Date | root | src | test | sample | Decision link |
-|-------------|-------------------|:-------------:|:----:|:---:|:----:|:------:|---------------|
-|             |                   |               |      |     |      |        |               |
-
 ## [Meziantou](https://www.meziantou.net/enforcing-asynchronous-code-good-practices-using-a-roslyn-analyzer.htm)
 
 | Rule        | Area              | Decision Date | root | src | test | sample | Decision link |
@@ -47,6 +35,12 @@
 | Rule        | Area              | Decision Date | root | src | test | sample | Decision link |
 |-------------|-------------------|:-------------:|:----:|:---:|:----:|:------:|---------------|
 | CS4014      | Naming            | 11-02-2021    | ❌ | 🦡 | 🦡 | 🦡 | [link](/documentation/CodeAnalyzersRules/MicrosoftCompilerErrors/CS4014.md) |
+
+## [Microsoft - Threading Analyzers](https://github.com/Microsoft/vs-threading)
+
+| Rule        | Area              | Decision Date | root | src | test | sample | Decision link |
+|-------------|-------------------|:-------------:|:----:|:---:|:----:|:------:|---------------|
+|             |                   |               |      |     |      |        |               |
 
 ## [SecurityCodeScan](https://security-code-scan.github.io)
 
