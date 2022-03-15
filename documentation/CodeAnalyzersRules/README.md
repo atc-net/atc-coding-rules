@@ -6,6 +6,7 @@
 * ☑️ dotnet_diagnostic.[RULE].severity = suggestion
 * 🦡 empty / no dotnet_diagnostic line in file 
 
+
 ## [AsyncFixer](http://www.asyncfixer.com)
 
 | Rule        | Area              | Decision Date | root | src | test | sample | Decision link |
