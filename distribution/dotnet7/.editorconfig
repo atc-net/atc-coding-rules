@@ -154,6 +154,10 @@ csharp_style_var_for_built_in_types = true                                      
 csharp_style_var_when_type_is_apparent = true                                   # IDE0007 and IDE0008
 csharp_style_var_elsewhere = true                                               # IDE0007 and IDE0008
 
+# Namespace declaration preferences
+# https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0160-ide0161?view=vs-2022
+csharp_style_namespace_declarations = file_scoped                               # IDE0160 and IDE0161
+
 # Expression-bodied members
 # https://docs.microsoft.com/visualstudio/ide/editorconfig-language-conventions#expression-bodied-members
 csharp_style_expression_bodied_constructors = when_on_single_line               # IDE0021
