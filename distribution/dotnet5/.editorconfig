@@ -443,6 +443,7 @@ dotnet_naming_rule.parameters_rule.severity             = warning
 dotnet_diagnostic.MA0003.severity = suggestion      # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/Meziantou/MA0003.md
 dotnet_diagnostic.MA0004.severity = suggestion      # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/Meziantou/MA0004.md
 dotnet_diagnostic.MA0006.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/Meziantou/MA0006.md
+dotnet_diagnostic.MA0011.severity = none            # Duplicate of CA1305
 dotnet_diagnostic.MA0016.severity = error           # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/Meziantou/MA0016.md
 dotnet_diagnostic.MA0025.severity = suggestion      # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/Meziantou/MA0025.md
 dotnet_diagnostic.MA0026.severity = suggestion      # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/Meziantou/MA0026.md
@@ -455,6 +456,7 @@ dotnet_diagnostic.MA0048.severity = error           # https://github.com/atc-net
 # https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
 dotnet_diagnostic.CA1014.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1014.md
 dotnet_diagnostic.CA1068.severity = error           # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1068.md
+dotnet_diagnostic.CA1305.severity = error
 dotnet_diagnostic.CA1707.severity = error           # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md
 dotnet_diagnostic.CA1822.severity = info
 dotnet_diagnostic.CA2007.severity = suggestion      # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA2007.md
