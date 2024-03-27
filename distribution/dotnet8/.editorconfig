@@ -201,8 +201,8 @@ csharp_style_unused_value_assignment_preference = discard_variable              
 
 # Index and range preferences
 # https://docs.microsoft.com/visualstudio/ide/editorconfig-language-conventions#index-and-range-preferences
-csharp_style_prefer_index_operator = true                                       # IDE0056
-csharp_style_prefer_range_operator = true                                       # IDE0057
+csharp_style_prefer_index_operator = true:suggestion                            # IDE0056
+csharp_style_prefer_range_operator = true:suggestion                            # IDE0057
 
 # Miscellaneous preferences
 # https://docs.microsoft.com/visualstudio/ide/editorconfig-language-conventions#miscellaneous-preferences
