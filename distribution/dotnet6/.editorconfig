@@ -486,6 +486,7 @@ dotnet_diagnostic.SA1202.severity = none            # https://github.com/atc-net
 dotnet_diagnostic.SA1204.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/StyleCop/SA1204.md
 dotnet_diagnostic.SA1413.severity = error           # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/StyleCop/SA1413.md
 dotnet_diagnostic.SA1600.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/StyleCop/SA1600.md
+dotnet_diagnostic.SA1601.severity = none
 dotnet_diagnostic.SA1602.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/StyleCop/SA1602.md
 dotnet_diagnostic.SA1604.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/StyleCop/SA1604.md
 dotnet_diagnostic.SA1623.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/StyleCop/SA1623.md
