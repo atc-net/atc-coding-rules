@@ -9,6 +9,8 @@
 ##########################################
 [*.{cs}]
 
+dotnet_diagnostic.MA0048.severity = none            # To support code-behind [component].razor.cs files / Inherit from ComponentBase - File will not match type name.
+
 ##########################################
 # Custom - Code Analyzers Rules
 ##########################################
