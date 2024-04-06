@@ -10,6 +10,7 @@
 [*.{cs}]
 
 dotnet_diagnostic.MA0004.severity = error           # Use Task.ConfigureAwait(false) https://github.com/meziantou/Meziantou.Analyzer/blob/main/docs/Rules/MA0004.md
+dotnet_diagnostic.MA0048.severity = none            # To support partial classes - File will not match type name.
 
 ##########################################
 # Custom - Code Analyzers Rules
