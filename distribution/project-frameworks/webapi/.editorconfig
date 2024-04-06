@@ -9,6 +9,8 @@
 ##########################################
 [*.{cs}]
 
+dotnet_diagnostic.CA1062.severity = none            # No need for null-checking in public method.
+
 ##########################################
 # Custom - Code Analyzers Rules
 ##########################################
