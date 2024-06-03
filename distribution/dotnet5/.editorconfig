@@ -1,6 +1,6 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.0.9
-# Updated: 01-02-2022
+# Version: 1.0.10
+# Updated: 03-06-2024
 # Location: Root
 # Distribution: DotNet5
 # Inspired by: https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
@@ -460,7 +460,9 @@ dotnet_diagnostic.CA1305.severity = error
 dotnet_diagnostic.CA1707.severity = error           # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md
 dotnet_diagnostic.CA1812.severity = none
 dotnet_diagnostic.CA1822.severity = suggestion
+dotnet_diagnostic.CA1849.severity = error           # Call async methods when in an async method
 dotnet_diagnostic.CA2007.severity = suggestion      # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA2007.md
+dotnet_diagnostic.CA2250.severity = suggestion      # Use ThrowIfCancellationRequested
 dotnet_diagnostic.IDE0058.severity = none           # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/IDE0058.md
 
 
