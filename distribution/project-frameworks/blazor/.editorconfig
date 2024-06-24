@@ -9,11 +9,7 @@
 ##########################################
 [*.{cs}]
 
-dotnet_diagnostic.MA0048.severity = none            # To support code-behind [component].razor.cs files / Inherit from ComponentBase - File will not match type name.
-
-##########################################
-# Custom - Code Analyzers Rules
-##########################################
+dotnet_diagnostic.ASP0006.severity = suggestion     # Do not use non-literal sequence numbers - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/asp0006?view=aspnetcore-8.0
 
 dotnet_diagnostic.BL0001.severity = error           # Component parameter should have public setters - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/bl0001?view=aspnetcore-8.0
 dotnet_diagnostic.BL0002.severity = error           # Component has multiple CaptureUnmatchedValues parameters - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/bl0002?view=aspnetcore-8.0
@@ -22,4 +18,8 @@ dotnet_diagnostic.BL0004.severity = error           # Component parameter should
 dotnet_diagnostic.BL0005.severity = error           # Component parameter should not be set outside of its component - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/bl0005?view=aspnetcore-8.0
 dotnet_diagnostic.BL0006.severity = warning         # Do not use RenderTree types - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/bl0006?view=aspnetcore-8.0
 
-dotnet_diagnostic.ASP0006.severity = suggestion     # Do not use non-literal sequence numbers - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/asp0006?view=aspnetcore-8.0
+dotnet_diagnostic.MA0048.severity = none            # To support code-behind [component].razor.cs files / Inherit from ComponentBase - File will not match type name.
+
+##########################################
+# Custom - Code Analyzers Rules
+##########################################
