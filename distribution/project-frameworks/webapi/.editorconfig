@@ -38,6 +38,8 @@ dotnet_diagnostic.CA1062.severity = none            # No need for null-checking 
 
 dotnet_diagnostic.MA0004.severity = none            # Use Task.ConfigureAwait(false) https://github.com/meziantou/Meziantou.Analyzer/blob/main/docs/Rules/MA0004.md
 
+dotnet_diagnostic.S6964.severity = none             # The rule S6964 should not be active for model properties that use the required keyword. Those properties can never be under-posted because the JSON deserialization for them fails.
+
 ##########################################
 # Custom - Code Analyzers Rules
 ##########################################
