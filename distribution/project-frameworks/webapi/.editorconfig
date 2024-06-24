@@ -9,14 +9,6 @@
 ##########################################
 [*.{cs}]
 
-dotnet_diagnostic.CA1062.severity = none            # No need for null-checking in public method.
-
-dotnet_diagnostic.MA0004.severity = none            # Use Task.ConfigureAwait(false) https://github.com/meziantou/Meziantou.Analyzer/blob/main/docs/Rules/MA0004.md
-
-##########################################
-# Custom - Code Analyzers Rules
-##########################################
-
 dotnet_diagnostic.ASP0000.severity = error          # Do not call 'IServiceCollection.BuildServiceProvider' in 'ConfigureServices' - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/asp0000?view=aspnetcore-8.0
 dotnet_diagnostic.ASP0001.severity = error          # Authorization middleware is incorrectly configured - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/ASP0001?view=aspnetcore-8.0
 dotnet_diagnostic.ASP0003.severity = error          # Do not use model binding attributes with route handlers - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/asp0003?view=aspnetcore-8.0
@@ -41,3 +33,11 @@ dotnet_diagnostic.ASP0022.severity = error          # Route conflict detected be
 dotnet_diagnostic.ASP0023.severity = error          # Route conflict detected between route handlers (MVC) - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/asp0023?view=aspnetcore-8.0
 dotnet_diagnostic.ASP0024.severity = error          # Route handler has multiple parameters with the [FromBody] attribute - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/asp0024?view=aspnetcore-8.0
 dotnet_diagnostic.ASP0025.severity = suggestion     # Use AddAuthorizationBuilder to register authorization services and construct policies - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/asp0025?view=aspnetcore-8.0
+
+dotnet_diagnostic.CA1062.severity = none            # No need for null-checking in public method.
+
+dotnet_diagnostic.MA0004.severity = none            # Use Task.ConfigureAwait(false) https://github.com/meziantou/Meziantou.Analyzer/blob/main/docs/Rules/MA0004.md
+
+##########################################
+# Custom - Code Analyzers Rules
+##########################################
