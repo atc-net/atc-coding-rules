@@ -464,6 +464,7 @@ dotnet_diagnostic.MA0048.severity = error           # https://github.com/atc-net
 dotnet_diagnostic.CA1014.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1014.md
 dotnet_diagnostic.CA1068.severity = error           # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1068.md
 dotnet_diagnostic.CA1305.severity = error
+dotnet_diagnostic.CA1308.severity = suggestion      # Normalize strings to uppercase
 dotnet_diagnostic.CA1510.severity = suggestion      # Use ArgumentNullException throw helper
 dotnet_diagnostic.CA1511.severity = suggestion      # Use ArgumentException throw helper
 dotnet_diagnostic.CA1512.severity = suggestion      # Use ArgumentOutOfRangeException throw helper
