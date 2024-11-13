@@ -470,6 +470,7 @@ dotnet_diagnostic.CA1511.severity = suggestion      # Use ArgumentException thro
 dotnet_diagnostic.CA1512.severity = suggestion      # Use ArgumentOutOfRangeException throw helper
 dotnet_diagnostic.CA1513.severity = suggestion      # Use ObjectDisposedException throw helper
 dotnet_diagnostic.CA1514.severity = error           # Avoid redundant length argument
+dotnet_diagnostic.CA1515.severity = suggestion      # Because an application's API isn't typically referenced from outside the assembly, types can be made internal (https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1515)
 dotnet_diagnostic.CA1707.severity = error           # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md
 dotnet_diagnostic.CA1812.severity = none
 dotnet_diagnostic.CA1822.severity = suggestion
@@ -510,7 +511,16 @@ dotnet_diagnostic.CA2262.severity = suggestion      # Set 'MaxResponseHeadersLen
 dotnet_diagnostic.CA2263.severity = suggestion      # Prefer generic overload when type is known
 dotnet_diagnostic.CA2264.severity = error           # Do not pass a non-nullable value to 'ArgumentNullException.ThrowIfNull'
 dotnet_diagnostic.IDE0005.severity = warning        # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/IDE0005.md
+dotnet_diagnostic.IDE0010.severity = suggestion     # Populate switch
+dotnet_diagnostic.IDE0028.severity = suggestion     # Collection initialization can be simplified
+dotnet_diagnostic.IDE0021.severity = suggestion     # Use expression body for constructor
+dotnet_diagnostic.IDE0055.severity = none           # Fix formatting
 dotnet_diagnostic.IDE0058.severity = none           # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/IDE0058.md
+dotnet_diagnostic.IDE0061.severity = suggestion     # Use expression body for local function
+dotnet_diagnostic.IDE0130.severity = suggestion     # Namespace does not match folder structure
+dotnet_diagnostic.IDE0290.severity = none			# Use primary constructor
+dotnet_diagnostic.IDE0301.severity = suggestion     # Use collection expression for empty
+dotnet_diagnostic.IDE0305.severity = suggestion     # Collection initialization can be simplified
 
 
 # Microsoft - Compiler Errors
@@ -547,6 +557,7 @@ dotnet_diagnostic.SA1649.severity = error           # https://github.com/atc-net
 # https://rules.sonarsource.com/csharp
 dotnet_diagnostic.S1135.severity = suggestion       # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/SonarAnalyzerCSharp/S1135.md
 dotnet_diagnostic.S2629.severity = none            	# Don't use string interpolation in logging message templates.
+dotnet_diagnostic.S3358.severity = none           	# Extract this nested ternary operation into an independent statement.
 dotnet_diagnostic.S6602.severity = none           	# "Find" method should be used instead of the "FirstOrDefault"
 dotnet_diagnostic.S6603.severity = none            	# The collection-specific "TrueForAll" method should be used instead of the "All"
 dotnet_diagnostic.S6605.severity = none             # Collection-specific "Exists" method should be used instead of the "Any"
