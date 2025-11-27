@@ -1,0 +1,52 @@
+# ATC coding rules - https://github.com/atc-net/atc-coding-rules
+# Version: 1.0.0
+# Updated: 27-11-2025
+# Location: aspire
+# Distribution: Frameworks
+
+##########################################
+# Code Analyzers Rules
+##########################################
+[*.{cs}]
+
+# Meziantou
+# https://www.meziantou.net/enforcing-asynchronous-code-good-practices-using-a-roslyn-analyzer.htm
+dotnet_diagnostic.MA0004.severity = none            # Use Task.ConfigureAwait(false) - Not needed in Aspire AppHost https://github.com/meziantou/Meziantou.Analyzer/blob/main/docs/Rules/MA0004.md
+
+# SonarAnalyzer.CSharp
+# https://rules.sonarsource.com/csharp
+dotnet_diagnostic.S6964.severity = none             # Value type property validation - may conflict with Aspire resource builders
+
+##########################################
+# .NET Aspire Diagnostics Reference
+# https://aspire.dev/diagnostics/overview/
+#
+# The following ASPIRE rules use SDK defaults and are NOT explicitly configured.
+# Uncomment and adjust as needed for your project:
+#
+# MSBuild Warnings:
+# dotnet_diagnostic.ASPIRE001.severity = warning    # Language isn't fully supported by Aspire
+# dotnet_diagnostic.ASPIRE002.severity = warning    # Missing Aspire.Hosting.AppHost package
+# dotnet_diagnostic.ASPIRE003.severity = warning    # Requires Visual Studio 17.10+
+# dotnet_diagnostic.ASPIRE004.severity = warning    # Non-executable referenced by AppHost
+# dotnet_diagnostic.ASPIRE006.severity = error      # Application model items must have valid names
+# dotnet_diagnostic.ASPIRE007.severity = error      # Requires Aspire.AppHost.Sdk 9.0.0+
+# dotnet_diagnostic.ASPIRE008.severity = error      # Aspire workload is deprecated
+#
+# Experimental API Warnings (suppress if using these features):
+# dotnet_diagnostic.ASPIRECOMPUTE001.severity = none        # Custom compute environments
+# dotnet_diagnostic.ASPIRECOSMOSDB001.severity = none       # CosmosDB preview emulator
+# dotnet_diagnostic.ASPIREHOSTINGPYTHON001.severity = none  # Python app orchestration
+# dotnet_diagnostic.ASPIREACADOMAINS001.severity = none     # Azure Container Apps custom domains
+# dotnet_diagnostic.ASPIREAZURE001.severity = none          # Azure publishers
+# dotnet_diagnostic.ASPIREAZURE002.severity = none          # Azure Container App Jobs
+# dotnet_diagnostic.ASPIREPIPELINES001.severity = none      # Deployment pipeline infrastructure
+# dotnet_diagnostic.ASPIREPIPELINES002.severity = none      # Deployment state manager
+# dotnet_diagnostic.ASPIREPIPELINES003.severity = none      # Container image build
+# dotnet_diagnostic.ASPIREPROXYENDPOINTS001.severity = none # Proxy endpoints
+# dotnet_diagnostic.ASPIREPUBLISHERS001.severity = none     # Publishers feature
+##########################################
+
+##########################################
+# Custom - Code Analyzers Rules
+##########################################
