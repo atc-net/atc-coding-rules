@@ -27,6 +27,7 @@ dotnet_diagnostic.CA1068.severity = none            # CancellationToken paramete
 dotnet_diagnostic.CA1602.severity = none
 dotnet_diagnostic.CA1707.severity = none            # Identifiers should not contain underscores
 dotnet_diagnostic.CA2007.severity = none            # Do not directly await a Task
+dotnet_diagnostic.CA2025.severity = none            # Ensure tasks using 'IDisposable' instances complete before the instances are disposed
 
 
 # Microsoft - Compiler Errors
