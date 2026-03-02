@@ -31,6 +31,7 @@ dotnet_diagnostic.CA1068.severity = none            # https://github.com/atc-net
 dotnet_diagnostic.CA1602.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1602.md
 dotnet_diagnostic.CA1707.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA1707.md
 dotnet_diagnostic.CA2007.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCodeAnalysis/CA2007.md
+dotnet_diagnostic.CA2025.severity = none            # Ensure tasks using 'IDisposable' instances complete before the instances are disposed
 
 
 # Microsoft - Compiler Errors
