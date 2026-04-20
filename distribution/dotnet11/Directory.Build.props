@@ -39,11 +39,11 @@
 
   <!-- Shared code analyzers used for all projects in the solution -->
   <ItemGroup Label="Code Analyzers">
-    <PackageReference Include="Atc.Analyzer" Version="0.1.22" PrivateAssets="All" />
+    <PackageReference Include="Atc.Analyzer" Version="0.1.23" PrivateAssets="All" />
     <PackageReference Include="AsyncFixer" Version="2.1.0" PrivateAssets="All" />
-    <PackageReference Include="Meziantou.Analyzer" Version="3.0.17" PrivateAssets="All" />
+    <PackageReference Include="Meziantou.Analyzer" Version="3.0.50" PrivateAssets="All" />
     <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556" PrivateAssets="All" />
-    <PackageReference Include="SonarAnalyzer.CSharp" Version="10.20.0.135146" PrivateAssets="All" />
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="10.23.0.137933" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
