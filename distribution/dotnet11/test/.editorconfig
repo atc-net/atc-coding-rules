@@ -14,10 +14,6 @@
 # http://www.asyncfixer.com
 
 
-# Asyncify
-# https://github.com/hvanbakel/Asyncify-CSharp
-
-
 # Meziantou
 # https://www.meziantou.net/enforcing-asynchronous-code-good-practices-using-a-roslyn-analyzer.htm
 dotnet_diagnostic.MA0004.severity = none            # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/Meziantou/MA0004.md
@@ -36,10 +32,6 @@ dotnet_diagnostic.CA2025.severity = none            # Ensure tasks using 'IDispo
 
 # Microsoft - Compiler Errors
 # https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/
-
-
-# SecurityCodeScan
-# https://security-code-scan.github.io/
 
 
 # StyleCop

@@ -1,6 +1,6 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.0.0
-# Updated: 26-02-2026
+# Version: 1.0.1
+# Updated: 20-04-2026
 # Location: sample
 # Distribution: DotNet11
 # Inspired by: https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
@@ -12,10 +12,6 @@
 
 # AsyncFixer
 # http://www.asyncfixer.com
-
-
-# Asyncify
-# https://github.com/hvanbakel/Asyncify-CSharp
 
 
 # Meziantou
@@ -30,16 +26,9 @@
 # https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/
 
 
-# Microsoft - FxCop
-# https://github.com/dotnet/roslyn-analyzers
-
-
-# SecurityCodeScan
-# https://security-code-scan.github.io/
-
-
 # StyleCop
 # https://github.com/DotNetAnalyzers/StyleCopAnalyzers
+
 
 # SonarAnalyzer.CSharp
 # https://rules.sonarsource.com/csharp
