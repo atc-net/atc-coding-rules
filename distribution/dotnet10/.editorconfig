@@ -1,6 +1,6 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.0.0
-# Updated: 27-11-2025
+# Version: 1.0.1
+# Updated: 20-04-2026
 # Location: Root
 # Distribution: DotNet10
 # Inspired by: https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
@@ -441,10 +441,6 @@ dotnet_naming_rule.parameters_rule.severity             = warning
 # http://www.asyncfixer.com
 
 
-# Asyncify
-# https://github.com/hvanbakel/Asyncify-CSharp
-
-
 # Meziantou
 # https://www.meziantou.net/enforcing-asynchronous-code-good-practices-using-a-roslyn-analyzer.htm
 dotnet_diagnostic.MA0003.severity = suggestion      # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/Meziantou/MA0003.md
@@ -531,10 +527,6 @@ dotnet_diagnostic.IDE0305.severity = suggestion     # Collection initialization 
 # Microsoft - Compiler Errors
 # https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/
 dotnet_diagnostic.CS4014.severity = error          # https://github.com/atc-net/atc-coding-rules/blob/main/documentation/CodeAnalyzersRules/MicrosoftCompilerErrors/CS4014.md
-
-
-# SecurityCodeScan
-# https://security-code-scan.github.io/
 
 
 # StyleCop
