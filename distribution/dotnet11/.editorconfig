@@ -1,6 +1,6 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.0.1
-# Updated: 20-04-2026
+# Version: 1.0.2
+# Updated: 30-05-2026
 # Location: Root
 # Distribution: DotNet11
 # Inspired by: https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/code-style-rule-options
@@ -532,6 +532,7 @@ dotnet_diagnostic.IDE0305.severity = suggestion     # Collection initialization 
 # Microsoft - Compiler Errors
 # https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/compiler-messages/
 dotnet_diagnostic.CS4014.severity = error           # Call is not awaited
+dotnet_diagnostic.CS9378.severity = error           # '#!' must be the first characters on the first line of the file
 
 
 # StyleCop
