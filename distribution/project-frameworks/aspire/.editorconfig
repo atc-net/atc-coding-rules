@@ -1,5 +1,5 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.5.0
+# Version: 1.5.1
 # Updated: 04-10-2026
 # Location: aspire
 # Distribution: Frameworks
@@ -60,6 +60,7 @@ dotnet_diagnostic.S6964.severity = none             # Value type property valida
 # dotnet_diagnostic.ASPIREDENO001.severity = none                    # Deno hosting - AddDenoApp (Aspire.Hosting.JavaScript) (13.6)
 # dotnet_diagnostic.ASPIREDOTNETTOOL001.severity = none              # .NET tool resource types
 # dotnet_diagnostic.ASPIREDOTNETPROJECT001.severity = none           # AddDotnetProject (13.5) - retired in 13.6 (coordinated builds)
+# dotnet_diagnostic.ASPIREDURABLETASK001.severity = none             # Durable Task scheduler / task hub (Aspire.Hosting.Azure.Functions) (13.3)
 # dotnet_diagnostic.ASPIREEXPORT001.severity = error                 # Exported method must be static
 # dotnet_diagnostic.ASPIREEXPORT002.severity = error                 # Invalid export ID format
 # dotnet_diagnostic.ASPIREEXPORT003.severity = error                 # Return type incompatible with ATS
@@ -70,6 +71,7 @@ dotnet_diagnostic.S6964.severity = none             # Value type property valida
 # dotnet_diagnostic.ASPIREEXPORT008.severity = warning               # Public extension missing required attribute
 # dotnet_diagnostic.ASPIREEXPORT009.severity = warning               # Export name risks collision
 # dotnet_diagnostic.ASPIREEXPORT010.severity = warning               # Synchronous inline callback / potential deadlock
+# dotnet_diagnostic.ASPIREEXPORT013.severity = warning               # Duplicate polyglot capability ID in one assembly (13.3)
 # dotnet_diagnostic.ASPIREEXPORT015.severity = error                 # AspireExport Description deprecated; use XML docs (13.4)
 # dotnet_diagnostic.ASPIREEXPORT016.severity = warning               # Get-only mutable collection DTO property (13.4)
 # dotnet_diagnostic.ASPIREEXTENSION001.severity = none               # Extension debugging support APIs (incl. WithDebugSupport overload, 13.6)
@@ -86,7 +88,7 @@ dotnet_diagnostic.S6964.severity = none             # Value type property valida
 # dotnet_diagnostic.ASPIREPOSTGRES001.severity = none                # PostgreSQL MCP integration
 # dotnet_diagnostic.ASPIREPROBES001.severity = none                  # Probe-related types
 # dotnet_diagnostic.ASPIREPROCESSCOMMAND001.severity = none          # Process-backed resource commands (13.4)
-# dotnet_diagnostic.ASPIREPROJECTS001.severity = none                # Project launch defaults (WithProjectDefaults) (13.5)
+# dotnet_diagnostic.ASPIREPROJECTS001.severity = none                # Project launch defaults (WithProjectDefaults) (13.5); AddEFMigrations for IDotnetProgramResource (13.6)
 # dotnet_diagnostic.ASPIREPROXYENDPOINTS001.severity = none          # Proxy endpoints
 # dotnet_diagnostic.ASPIREPUBLISHERS001.severity = none              # Publishers feature
 # dotnet_diagnostic.ASPIRERADIUS003.severity = none                  # Radius cloud provider types
