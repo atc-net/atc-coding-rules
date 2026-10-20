@@ -452,7 +452,7 @@ dotnet_diagnostic.MA0048.severity = error           # File name must match type 
 # https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
 dotnet_diagnostic.CA1014.severity = none            # Mark assemblies with CLSCompliantAttribute
 dotnet_diagnostic.CA1068.severity = error           # CancellationToken parameters must come last
-dotnet_diagnostic.CA1305.severity = error
+dotnet_diagnostic.CA1305.severity = error           # Specify IFormatProvider
 dotnet_diagnostic.CA1707.severity = error           # Identifiers should not contain underscores
 dotnet_diagnostic.CA1812.severity = none
 dotnet_diagnostic.CA1822.severity = suggestion

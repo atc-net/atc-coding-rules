@@ -458,7 +458,7 @@ dotnet_diagnostic.MA0048.severity = error           # File name must match type 
 # https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/
 dotnet_diagnostic.CA1014.severity = none            # Mark assemblies with CLSCompliantAttribute
 dotnet_diagnostic.CA1068.severity = error           # CancellationToken parameters must come last
-dotnet_diagnostic.CA1305.severity = error
+dotnet_diagnostic.CA1305.severity = error           # Specify IFormatProvider
 dotnet_diagnostic.CA1308.severity = suggestion      # Normalize strings to uppercase
 dotnet_diagnostic.CA1510.severity = suggestion      # Use ArgumentNullException throw helper
 dotnet_diagnostic.CA1511.severity = suggestion      # Use ArgumentException throw helper
@@ -513,7 +513,7 @@ dotnet_diagnostic.IDE0055.severity = none           # Fix formatting
 dotnet_diagnostic.IDE0058.severity = none           # Remove unnecessary expression value
 dotnet_diagnostic.IDE0061.severity = suggestion     # Use expression body for local function
 dotnet_diagnostic.IDE0130.severity = suggestion     # Namespace does not match folder structure
-dotnet_diagnostic.IDE0290.severity = none			# Use primary constructor
+dotnet_diagnostic.IDE0290.severity = none           # Use primary constructor
 dotnet_diagnostic.IDE0301.severity = suggestion     # Use collection expression for empty
 dotnet_diagnostic.IDE0305.severity = suggestion     # Collection initialization can be simplified
 
@@ -552,10 +552,10 @@ dotnet_diagnostic.SA1649.severity = error           # File name should match fir
 # SonarAnalyzer.CSharp
 # https://rules.sonarsource.com/csharp
 dotnet_diagnostic.S1135.severity = suggestion       # Track uses of TODO tags
-dotnet_diagnostic.S2629.severity = none            	# Don't use string interpolation in logging message templates.
-dotnet_diagnostic.S3358.severity = none           	# Extract this nested ternary operation into an independent statement.
-dotnet_diagnostic.S6602.severity = none           	# "Find" method should be used instead of the "FirstOrDefault"
-dotnet_diagnostic.S6603.severity = none            	# The collection-specific "TrueForAll" method should be used instead of the "All"
+dotnet_diagnostic.S2629.severity = none             # Don't use string interpolation in logging message templates.
+dotnet_diagnostic.S3358.severity = none             # Extract this nested ternary operation into an independent statement.
+dotnet_diagnostic.S6602.severity = none             # "Find" method should be used instead of the "FirstOrDefault"
+dotnet_diagnostic.S6603.severity = none             # The collection-specific "TrueForAll" method should be used instead of the "All"
 dotnet_diagnostic.S6605.severity = none             # Collection-specific "Exists" method should be used instead of the "Any"
 dotnet_diagnostic.S6964.severity = none             # Value type property used as input in a controller action should be nullable, required or annotated with the JsonRequiredAttribute to avoid under-posting.
 
