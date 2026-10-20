@@ -1,0 +1,37 @@
+name: Validate .editorconfig
+
+on:
+  pull_request:
+    paths:
+      - 'distribution/**'
+      - '.github/scripts/Test-EditorConfigScope.ps1'
+      - '.github/workflows/validate-editorconfig.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'distribution/**'
+      - '.github/scripts/Test-EditorConfigScope.ps1'
+      - '.github/workflows/validate-editorconfig.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  editorconfig-scope:
+    name: Check .NET settings are in C# sections
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Run Test-EditorConfigScope
+        shell: pwsh
+        run: ./.github/scripts/Test-EditorConfigScope.ps1
