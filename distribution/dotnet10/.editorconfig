@@ -29,7 +29,7 @@ trim_trailing_whitespace = true
 indent_style = tab
 
 # Visual Studio XML Project Files
-[*.{csproj,vcxproj.filters,proj,projitems,shproj}]
+[*.{csproj,vcxproj.filters,proj,projitems,shproj,slnx}]
 indent_size = 2
 
 # XML Configuration Files
