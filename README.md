@@ -7,6 +7,7 @@ A curated set of C# / .NET code analyzer rules maintained by the **ATC core team
 - [🎯 What is it?](#-what-is-it)
 - [💡 Why use it?](#-why-use-it)
 - [🔄 Process around changes](#-process-around-changes)
+- [🔢 Versioning](#-versioning)
 - [🚀 Usage](#-usage)
 - [❓ Q & A](#-q--a)
 
@@ -34,6 +35,12 @@ When a rule feels annoying and somebody wants to disable it, it must follow a st
 3. ✅ The decision is executed and documented in the PR that changes the rule.
 
 > 🚨 **NO rules may be deactivated by a single person.** Every change must be reviewable so that anyone can later trace the decision.
+
+## 🔢 Versioning
+
+How much work is an update going to cost you — nothing, a cleanup, or a migration? 🤔
+
+A [semantic versioning scheme](docs/versioning.md) is **proposed** to answer exactly that, including how it maps to the [atc-coding-rules-updater](https://github.com/atc-net/atc-coding-rules-updater). It is a discussion document, not yet an active policy — feedback is welcome in issue [#56](https://github.com/atc-net/atc-coding-rules/issues/56). 💬
 
 ## 🚀 Usage
 
