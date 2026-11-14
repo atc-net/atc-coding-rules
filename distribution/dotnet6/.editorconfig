@@ -1,6 +1,6 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.0.11
-# Updated: 20-10-2026
+# Version: 1.0.12
+# Updated: 14-11-2026
 # Location: Root
 # Distribution: DotNet6
 # Inspired by: https://learn.microsoft.com/dotnet/fundamentals/code-analysis/code-style-rule-options
@@ -462,6 +462,7 @@ dotnet_diagnostic.CA1308.severity = suggestion      # Normalize strings to upper
 dotnet_diagnostic.CA1707.severity = error           # Identifiers should not contain underscores
 dotnet_diagnostic.CA1812.severity = none
 dotnet_diagnostic.CA1822.severity = suggestion
+dotnet_diagnostic.CA1830.severity = suggestion      # Prefer StringBuilder.Append(char) over StringBuilder.Append(new string(char, int))
 dotnet_diagnostic.CA1849.severity = error           # Call async methods when in an async method
 dotnet_diagnostic.CA2007.severity = suggestion      # Do not directly await a Task
 dotnet_diagnostic.CA2017.severity = error           # Parameter count mismatch

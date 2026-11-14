@@ -1,6 +1,6 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.0.2
-# Updated: 20-10-2026
+# Version: 1.0.3
+# Updated: 14-11-2026
 # Location: Root
 # Distribution: DotNet8
 # Inspired by: https://learn.microsoft.com/dotnet/fundamentals/code-analysis/code-style-rule-options
@@ -469,6 +469,7 @@ dotnet_diagnostic.CA1515.severity = suggestion      # Because an application's A
 dotnet_diagnostic.CA1707.severity = error           # Identifiers should not contain underscores
 dotnet_diagnostic.CA1812.severity = none
 dotnet_diagnostic.CA1822.severity = suggestion
+dotnet_diagnostic.CA1830.severity = suggestion      # Prefer StringBuilder.Append(char) over StringBuilder.Append(new string(char, int))
 dotnet_diagnostic.CA1849.severity = error           # Call async methods when in an async method
 dotnet_diagnostic.CA1854.severity = suggestion      # Prefer the 'IDictionary.TryGetValue(TKey, out TValue)' method
 dotnet_diagnostic.CA1855.severity = suggestion      # Prefer 'Clear' over 'Fill'
