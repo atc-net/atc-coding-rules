@@ -1,6 +1,6 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.0.2
-# Updated: 19-04-2026
+# Version: 1.0.3
+# Updated: 14-11-2026
 # Location: blazor
 # Distribution: Frameworks
 
@@ -21,6 +21,12 @@ dotnet_diagnostic.BL0007.severity = warning         # Component parameter should
 dotnet_diagnostic.BL0008.severity = warning         # Component parameters should be auto properties ([SupplyParameterFromForm] with non-default initializer) - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/bl0008?view=aspnetcore-10.0
 dotnet_diagnostic.BL0009.severity = warning         # Property initializer can be overwritten for [PersistentState] properties - https://github.com/dotnet/aspnetcore/pull/63236
 dotnet_diagnostic.BL0010.severity = warning         # Use InvokeVoidAsync for JavaScript functions that don't return a value - https://learn.microsoft.com/en-us/aspnet/core/diagnostics/bl0010?view=aspnetcore-11.0
+dotnet_diagnostic.BL0011.severity = warning         # Virtualize with ItemsProvider requires ItemComparer - https://github.com/dotnet/aspnetcore/blob/release/11.0/src/Components/Analyzers/src/DiagnosticDescriptors.cs
+dotnet_diagnostic.BL0012.severity = suggestion      # Unnecessary StateHasChanged call - https://github.com/dotnet/aspnetcore/blob/release/11.0/src/Components/Analyzers/src/DiagnosticDescriptors.cs
+dotnet_diagnostic.BL0013.severity = warning         # AuthenticationStateProvider.GetAuthenticationStateAsync used without subscribing to AuthenticationStateChanged - https://github.com/dotnet/aspnetcore/blob/release/11.0/src/Components/Analyzers/src/DiagnosticDescriptors.cs
+dotnet_diagnostic.BL0014.severity = error           # For loop iterator variable used inside a closure / RenderFragment - https://github.com/dotnet/aspnetcore/blob/release/11.0/src/Components/Analyzers/src/DiagnosticDescriptors.cs
+dotnet_diagnostic.BL0015.severity = error           # [JSInvokable] methods should be public - https://github.com/dotnet/aspnetcore/blob/release/11.0/src/Components/Analyzers/src/DiagnosticDescriptors.cs
+dotnet_diagnostic.BL0016.severity = suggestion      # Unguarded JS interop call (no try/catch) - https://github.com/dotnet/aspnetcore/blob/release/11.0/src/Components/Analyzers/src/DiagnosticDescriptors.cs
 
 dotnet_diagnostic.MA0048.severity = none            # To support code-behind [component].razor.cs files / Inherit from ComponentBase - File will not match type name.
 
