@@ -548,6 +548,7 @@ dotnet_diagnostic.SA1201.severity = none            # Elements should appear in 
 dotnet_diagnostic.SA1202.severity = none            # Elements should be ordered by access
 dotnet_diagnostic.SA1204.severity = none            # Static elements should appear before instance elements
 dotnet_diagnostic.SA1413.severity = error           # Use trailing commas in multi-line initializers
+dotnet_diagnostic.SA1504.severity = none            # All accessors should be single-line or multi-line - conflicts with ATC210 (expression-bodied get with a block set)
 dotnet_diagnostic.SA1600.severity = none            # Elements should be documented
 dotnet_diagnostic.SA1601.severity = none
 dotnet_diagnostic.SA1602.severity = none            # Enumeration items should be documented
