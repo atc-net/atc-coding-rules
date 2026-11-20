@@ -1,6 +1,6 @@
 # ATC coding rules - https://github.com/atc-net/atc-coding-rules
-# Version: 1.5.2
-# Updated: 14-11-2026
+# Version: 1.5.3
+# Updated: 20-11-2026
 # Location: aspire
 # Distribution: Frameworks
 
@@ -32,33 +32,36 @@ dotnet_diagnostic.S6964.severity = none             # Value type property valida
 # dotnet_diagnostic.ASPIRE006.severity = error                       # Application model items must have valid names
 # dotnet_diagnostic.ASPIRE007.severity = error                       # Requires Aspire.AppHost.Sdk 9.0.0+
 # dotnet_diagnostic.ASPIRE008.severity = error                       # Requires GenerateAssemblyInfo to be enabled
-# dotnet_diagnostic.ASPIRE009.severity = error                       # CLI bundle could not be resolved (13.5)
-# dotnet_diagnostic.ASPIRE010.severity = warning                     # Project opts out of the CLI bundle (13.5)
+# dotnet_diagnostic.ASPIRE009.severity = error                       # CLI bundle could not be resolved (13.5; 17.0 includes DNX/CLI setup output)
+# dotnet_diagnostic.ASPIRE010.severity = warning                     # Project opts out of the CLI bundle (13.5; 17.0: non-C# AppHosts only)
 # dotnet_diagnostic.ASPIRE011.severity = error                       # dnx command not found for CLI bundle (13.5)
+# dotnet_diagnostic.ASPIRE012.severity = warning                     # Aspire.AppHost.Sdk is obsolete - use Microsoft.NET.Sdk + Aspire.Hosting.AppHost (17.0; MSBuild: SuppressAspireAppHostSdkObsoleteWarning)
+# dotnet_diagnostic.ASPIRE013.severity = error                       # C# AppHost requires the Aspire CLI bundle (17.0)
 #
 # Experimental API Warnings (suppress if using these features):
 # dotnet_diagnostic.ASPIREACADOMAINS001.severity = none              # Azure Container Apps custom domains
 # dotnet_diagnostic.ASPIREACAEXPRESS001.severity = none              # Azure Container Apps Express (AsExpress) (13.6)
-# dotnet_diagnostic.ASPIREACANAMING001.severity = none               # ACA WithCompactResourceNaming
-# dotnet_diagnostic.ASPIREACANAMING002.severity = none               # ACA WithUniqueResourceNaming deterministic naming (13.5)
-# dotnet_diagnostic.ASPIREAZURE001.severity = none                   # Azure publishers
+# dotnet_diagnostic.ASPIREACANAMING001.severity = none               # ACA WithCompactResourceNaming - retired in 17.0 (stable) - remove suppressions
+# dotnet_diagnostic.ASPIREACANAMING002.severity = none               # ACA WithUniqueResourceNaming deterministic naming (13.5) - retired in 17.0 (stable) - remove suppressions
+# dotnet_diagnostic.ASPIREAZURE001.severity = none                   # Azure publishers; AzureEnvironmentResource, AddAzureEnvironment - retired in 17.0 (stable) - remove suppressions
 # dotnet_diagnostic.ASPIREAZURE002.severity = none                   # Azure Container App Jobs
-# dotnet_diagnostic.ASPIREAZURE003.severity = none                   # Azure Virtual Network types; delegated subnets (13.5)
+# dotnet_diagnostic.ASPIREAZURE003.severity = none                   # Azure Virtual Network types; delegated subnets (13.5) - retired in 17.0 (stable) - remove suppressions
+# dotnet_diagnostic.ASPIREAZUREFUNCTIONS001.severity = none          # AddAzureFunctionsApp - TypeScript/JavaScript Azure Functions (17.0)
 # dotnet_diagnostic.ASPIREAZUREPROVISIONING001.severity = none       # Aspire.Hosting.Azure.Provisioning.* proxies (13.6)
 # dotnet_diagnostic.ASPIREBLAZOR001.severity = none                  # Blazor WebAssembly hosting types
 # dotnet_diagnostic.ASPIREBROWSERLOGS001.severity = none             # Browser logs (WithBrowserLogs, Aspire.Hosting.Browsers) (13.4)
 # dotnet_diagnostic.ASPIRECERTIFICATES001.severity = none            # Certificate configuration types; HTTPS dev cert APIs (13.5)
-# dotnet_diagnostic.ASPIRECOMMAND001.severity = none                 # Required command validation types
+# dotnet_diagnostic.ASPIRECOMMAND001.severity = none                 # Required command validation types - retired in 17.0 (stable) - remove suppressions
 # dotnet_diagnostic.ASPIRECOMPUTE001.severity = none                 # Custom compute environments
-# dotnet_diagnostic.ASPIRECOMPUTE002.severity = none                 # GetHostAddressExpression; K8s/AKS persistent volumes (13.5)
+# dotnet_diagnostic.ASPIRECOMPUTE002.severity = none                 # K8s/AKS persistent volume APIs (13.5; 17.0 adds PVC WithConfiguration/WithPersistentVolumeName/WithoutStorageClass; no longer on GetHostAddressExpression)
 # dotnet_diagnostic.ASPIRECOMPUTE003.severity = none                 # ContainerRegistryResource type
-# dotnet_diagnostic.ASPIRECONNECTIONSTRINGS001.severity = none       # ConnectionStringReference.EnvironmentVariableNames (13.6)
+# dotnet_diagnostic.ASPIRECONNECTIONSTRINGS001.severity = none       # ConnectionStringReference.EnvironmentVariableNames (13.6) - retired in 17.0 (stable) - remove suppressions
 # dotnet_diagnostic.ASPIRECONTAINERRUNTIME001.severity = none        # Container runtime types
 # dotnet_diagnostic.ASPIRECONTAINERSHELLEXECUTION001.severity = none # Container shell execution property
 # dotnet_diagnostic.ASPIRECOSMOSDB001.severity = none                # CosmosDB preview emulator - retired in 13.6 (vNext is default)
-# dotnet_diagnostic.ASPIRECSHARPAPPS001.severity = none              # AddCSharpApp
-# dotnet_diagnostic.ASPIREDOCKERFILEBUILDER001.severity = none       # Dockerfile builder types
-# dotnet_diagnostic.ASPIREDENO001.severity = none                    # Deno hosting - AddDenoApp (Aspire.Hosting.JavaScript) (13.6)
+# dotnet_diagnostic.ASPIRECSHARPAPPS001.severity = none              # AddCSharpApp - retired in 17.0: AddCSharpApp is [Obsolete] (CS0618), use AddDotnetProject
+# dotnet_diagnostic.ASPIREDOCKERFILEBUILDER001.severity = none       # Dockerfile builder types - retired in 17.0 (stable) - remove suppressions
+# dotnet_diagnostic.ASPIREDENO001.severity = none                    # Deno hosting - AddDenoApp (Aspire.Hosting.JavaScript) (13.6) - retired in 17.0 (stable) - remove suppressions
 # dotnet_diagnostic.ASPIREDOTNETTOOL.severity = none                 # .NET tool resource types - actual ID emitted by [Experimental("ASPIREDOTNETTOOL")] in source
 # dotnet_diagnostic.ASPIREDOTNETTOOL001.severity = none              # .NET tool resource types - ID as documented on aspire.dev
 # dotnet_diagnostic.ASPIREDOTNETPROJECT001.severity = none           # AddDotnetProject (13.5) - retired in 13.6 (coordinated builds)
@@ -77,19 +80,20 @@ dotnet_diagnostic.S6964.severity = none             # Value type property valida
 # dotnet_diagnostic.ASPIREEXPORT015.severity = error                 # AspireExport Description deprecated; use XML docs (13.4)
 # dotnet_diagnostic.ASPIREEXPORT016.severity = warning               # Get-only mutable collection DTO property (13.4)
 # dotnet_diagnostic.ASPIREEXTENSION001.severity = none               # Extension debugging support APIs (incl. WithDebugSupport overload, 13.6)
-# dotnet_diagnostic.ASPIREFILESYSTEM001.severity = none              # File system service types
+# dotnet_diagnostic.ASPIREFILESYSTEM001.severity = none              # File system service types - retired in 17.0 (stable) - remove suppressions
 # dotnet_diagnostic.ASPIREHOSTINGPYTHON001.severity = none           # Python app orchestration
 # dotnet_diagnostic.ASPIREINTERACTION001.severity = none             # Interaction service; 13.5: only PromptProgressAsync remains experimental
-# dotnet_diagnostic.ASPIREJAVASCRIPT001.severity = none              # JavaScript hosting and publishing APIs (13.3)
-# dotnet_diagnostic.ASPIREMCP001.severity = none                     # MCP server types
+# dotnet_diagnostic.ASPIREJAVASCRIPT001.severity = none              # JavaScript hosting and publishing APIs (13.3) - retired in 17.0 (stable) - remove suppressions
+# dotnet_diagnostic.ASPIREMCP001.severity = none                     # MCP server types (WithMcpServer) - retired in 17.0 (stable) - remove suppressions
 # dotnet_diagnostic.ASPIREMONGODB001.severity = none                 # MongoDB replica set, key file and TLS APIs (13.6)
 # dotnet_diagnostic.ASPIREPERSISTENCE001.severity = none             # Shared resource lifetime APIs (13.4)
-# dotnet_diagnostic.ASPIREPIPELINES001.severity = none               # Deployment pipeline infrastructure
-# dotnet_diagnostic.ASPIREPIPELINES002.severity = none               # Deployment state manager
+# dotnet_diagnostic.ASPIREPIPELINES001.severity = none               # Deployment pipeline infrastructure - retired in 17.0 (stable) - remove suppressions
+# dotnet_diagnostic.ASPIREPIPELINES002.severity = none               # Deployment state manager - retired in 17.0 (stable) - remove suppressions
 # dotnet_diagnostic.ASPIREPIPELINES003.severity = none               # Container image build
-# dotnet_diagnostic.ASPIREPIPELINES004.severity = none               # Pipeline types under evaluation
+# dotnet_diagnostic.ASPIREPIPELINES004.severity = none               # Pipeline output service types - retired in 17.0 (stable) - remove suppressions
+# dotnet_diagnostic.ASPIREPIPELINES005.severity = none               # WithOutputDiffing - moved to Aspire.Hosting namespace (17.0)
 # dotnet_diagnostic.ASPIREPOSTGRES001.severity = none                # PostgreSQL MCP integration
-# dotnet_diagnostic.ASPIREPROBES001.severity = none                  # Probe-related types
+# dotnet_diagnostic.ASPIREPROBES001.severity = none                  # Probe-related types (WithHttpProbe) - retired in 17.0 (stable) - remove suppressions
 # dotnet_diagnostic.ASPIREPROCESSCOMMAND001.severity = none          # Process-backed resource commands (13.4)
 # dotnet_diagnostic.ASPIREPROJECTS001.severity = none                # Project launch defaults (WithProjectDefaults) (13.5); AddEFMigrations for IDotnetProgramResource (13.6)
 # dotnet_diagnostic.ASPIREPROXYENDPOINTS001.severity = none          # Proxy endpoints
@@ -98,8 +102,9 @@ dotnet_diagnostic.S6964.severity = none             # Value type property valida
 # dotnet_diagnostic.ASPIRERADIUS004.severity = none                  # Radius ConfigureRadiusInfrastructure types
 # dotnet_diagnostic.ASPIRERADIUS006.severity = none                  # Radius secret store types
 # dotnet_diagnostic.ASPIRERADIUS057.severity = none                  # Radius WithContainerImage
-# dotnet_diagnostic.ASPIRETERMINAL001.severity = none                # Terminal APIs - WithTerminal, TerminalService (13.5; types moved to Aspire.Hosting.ApplicationModel in 13.6)
-# dotnet_diagnostic.ASPIREUSERSECRETS001.severity = none             # User secrets types
+# dotnet_diagnostic.ASPIRERESOURCETRAITS001.severity = none          # Resource traits - WithTrait, WithTags, WithDisplayOrder (17.0)
+# dotnet_diagnostic.ASPIRETERMINAL001.severity = none                # TerminalService and terminal automation (13.5; 17.0: no longer on WithTerminal/TerminalOptions)
+# dotnet_diagnostic.ASPIREUSERSECRETS001.severity = none             # User secrets types - retired in 17.0 (stable) - remove suppressions
 # dotnet_diagnostic.ASPIREWATCH001.severity = none                   # Run mode configuration (RunConfiguration) (13.5)
 ##########################################
 
